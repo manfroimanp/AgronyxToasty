@@ -11,6 +11,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Toaster.simpleToast(this,"AGRONYX");
+        //Toaster.simpleToast(this,"AGRONYX");
+        ToasterComplete.simpleToast(this,"AGRONYX",0);
     }
 }
